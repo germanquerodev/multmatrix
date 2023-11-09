@@ -7,7 +7,7 @@
 #define MSG_NOK 0
 
 
-
+// enum de operaciones
 typedef enum matrixOp
 {
 	constructorOp = 1,
@@ -20,6 +20,8 @@ typedef enum matrixOp
 
 } matrixOp;
 
+
+// funciones templates de empaquetado y desempaquetado de variables y vectores
 template <typename T>
 inline void pack(std::vector<unsigned char> &packet, T data)
 {

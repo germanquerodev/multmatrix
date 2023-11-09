@@ -1,6 +1,7 @@
 #ifndef MULTMATRIX_H
 #define MULTMATRIX_H
 
+// estructura de matrix
 typedef struct matrix_t
 {
     int rows;
@@ -8,7 +9,7 @@ typedef struct matrix_t
     int* data;
 }matrix_t;
 
-
+// clase distribuida
 class multMatrix
 {
 public:
